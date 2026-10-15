@@ -22,3 +22,18 @@ CMakeFiles/
 cmake_install.cmake
 Makefile
 *.ninja
+
+# Arquivos auxiliares e de compilação do LaTeX
+
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.synctex.gz
+*.gz
+texput.log
+
+# Caso queira ignorar arquivos temporários específicos do projeto:
+# "Trabalho CG - Relatório.aux" etc. já serão pegos pelos coringas acima (*.aux).
